@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: #222
+}
+
+.container {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.main {
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+
+}
+
+.container nav i {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #bbb;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.container nav i:hover {
+    color: #F00;
+    transform: scale(1.02);
+}
+
+header {
+    background-color: #222;
+}
+
+section {
+    background-color: #222;
+    
+}
+
+.info {
+    width: 50%;
+    background-color: #222;
+}
+
+.info h1 {
+    font-size: 5rem;
+    line-height: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.info p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: start;
+    line-height: 1.5rem;
+    letter-spacing: .8px;
+}
+
+.price p {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: start;
+    margin: 20px 0;
+
+}
+
+.price b {
+    font-weight: 900;
+}
+
+.price del {
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: start;
+    margin: 20px 0;
+}
+
+.info a {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    transition: .5s all ease;
+}
+
+.info button {
+    background-color: #f00;
+    color: #222;
+    font-size: 1.5rem;
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    transition: .5s all ease;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.info button:hover {
+    transform: translateY(-10px);
+    background-color: #a00;
+}
+
+.images {
+    width: 50vw;
+    padding-bottom: 80px;
+    background-color: #F00;
+    position: relative;
+    
+
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 80%;
+    transform: rotate3d(0, 1, -1, 20deg);
+    margin-left: auto;
+    margin-bottom: 80px;
+    transition: .5s all ease;
+}
+
+.main-image:hover {
+    transform: rotate3d(0, 1, -1, 0deg);
+}
+.images h2{
+    color: #fff;
+    font-size: 8rem;
+    opacity: .4;
+    margin: 20px 0;
+    position: absolute;
+    font-weight: 900;
+    top: 10%;
+    left: 10%;
+}
+.nikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.nikes img {
+    width: 120px;
+    transform: rotate3d(0, 1, -1, 20deg);
+    transition: .5s all ease;
+
+}
+
+.nikes img:hover {
+    transform: rotate3d(0, 1, -1, 0deg);
+}
+.nikes div{
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+}
+.blue{
+    background-color: #00f;
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+}
+.red{
+    background-color: tomato;
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+}
+
+.green{
+    background-color: #0f0;
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+}
+.aqua{
+    width: 80px;
+    height: 80px;
+    margin: 0 40px;
+    background-color: aqua;
+   
+}
